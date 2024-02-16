@@ -11,10 +11,9 @@ mongoose
   .then(() => {
     console.log("mongodb in connected");
   })
-  .catch((error) => {
+  .catch((err) => {
     console.log(err);
   });
-
 const app = express();
 app.use(express.json());
 
